@@ -19,7 +19,7 @@ h1 {
 
 #miTabla {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
 
   }
   
@@ -31,16 +31,15 @@ h1 {
   }
   
   #miTabla th {
-    background-color: #f2f2f2;
+    background-color:gray;
+    border: solid 1px;
   }
   
-  #miTabla tr.checked-row {
-    background-color: red;
-  }
+  
   
   #miTabla input[type="text"]
    {
-    width: 100%;
+    width: 300px;
     padding: 4px;
     border: solid 1px;
     border-radius: 4px;
